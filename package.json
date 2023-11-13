@@ -1,0 +1,52 @@
+{
+  "name": "sakai-nuxt",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint:fix": "eslint --fix --ext \".js,.vue\" --ignore-path .gitignore .",
+    "format": "prettier --write \"**/*.{js,vue,d.ts}\"",
+    "format:check": "prettier --check \"**/*.{js,vue,d.ts}\""
+  },
+  "dependencies": {
+    "chart.js": "3.3.2",
+    "primeflex": "^3.3.0",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.39.0",
+    "@pinia/nuxt": "^0.5.1",
+    "@types/qs": "^6.9.10",
+    "@vueuse/core": "^10.5.0",
+    "dayjs": "^1.11.10",
+    "qs": "^6.11.2"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.18.9",
+    "@unocss/nuxt": "^0.57.2",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.4.0",
+    "nuxt": "^3.8.1",
+    "nuxt-primevue": "^0.1.0",
+    "prettier": "2.7.1",
+    "sass": "^1.60.0",
+    "sass-loader": "^10.4.1",
+    "@antfu/eslint-config": "^1.1.0",
+    "@iconify-json/carbon": "^1.1.21",
+    "@types/node": "^20.8.10",
+    "@unocss/eslint-config": "^0.57.1",
+    "@unocss/eslint-plugin": "^0.57.1",
+    "@vue-macros/volar": "^0.17.2",
+    "@nuxt/devtools": "latest",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5",
+    "unplugin-vue-macros": "^2.6.2",
+    "typescript": "^5.2.2"
+  }
+}
